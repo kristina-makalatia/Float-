@@ -1,0 +1,65 @@
+.d-block{
+	display: inline-block;
+}
+.container{
+	width: 1170px;
+	margin:0 auto;
+}
+.header{
+	background: red;
+}
+.logo{
+	width: 100px;
+	float:left;
+}
+.navigation{
+	float: right;
+	margin-right: 10px;
+}
+.clear{
+	clear: both;
+}
+header{
+	background:red;
+}
+.navigation-li::before{
+	content: "text";
+	background: blue;
+	font-size: 35px;
+	color: white;	
+}
+.navigation-li::after{
+	content: '';
+	background: yellow;
+	width:2px;
+	height: 30px;
+	display: inline-block;
+}
+header::after{
+	content: '';
+	clear: both;
+	display: block;
+
+}
+.float-left{
+	float: left;
+}
+.box{
+	margin-right:25px;
+}
+.active{
+	margin-right: 0;
+}
+.wraper::after{
+	content: '';
+	clear: left;
+	display: block;
+
+}
+.test{
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	padding: 20px;
+	box-sizing: border-box;
+}
